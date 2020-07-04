@@ -2,21 +2,21 @@
 <widget id="io.cordova.hellocordova" 
 version="1.0.1" xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Hello Kevin</name>
+  <name>My CEM</name>
   <description>
-    Mic Check one two.
+   Charismatic Evangelistic Ministry
   </description>
-  <author email="kevinaffram@gmail.com" href="http://cordova.io">
+  <author email="kevinaffram@gmail.com" href="#">
      Kevin Affram
   </author>
+  <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
+ 
   <access origin="*" />
-  
-  <preference name="AllowInlineMediaPlayback" value="true" />
+ <!-- Add the whitelist plugin -->
+<preference name="AllowInlineMediaPlayback" value="true" />
 <preference name="MediaPlaybackRequiresUserAction" value="false" />   
 <allow-navigation href="*youtube*" />
 <allow-navigation href="*ytimg*" />
-<!-- Add the whitelist plugin -->
-<plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
 
 <!-- This policy allows everything (eg CSS, AJAX, object, frame, media, etc) except that 
     * CSS only from the same origin and inline styles,
