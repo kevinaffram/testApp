@@ -11,7 +11,45 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
   </author>
   <access origin="*" />
   
-  
+  <preference name="AllowInlineMediaPlayback" value="true" />
+<preference name="MediaPlaybackRequiresUserAction" value="false" />   
+<allow-navigation href="*youtube*" />
+<allow-navigation href="*ytimg*" />
+<!-- Add the whitelist plugin -->
+<plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
+
+<!-- White list https access to Youtube -->
+<allow-navigation href="https://*youtube.com/*"/>
+
+<!-- A wildcard can be used to whitelist the entire network,
+     over HTTP and HTTPS.
+     *NOT RECOMMENDED* -->
+<allow-navigation href="*" />
+
+<!-- The above is equivalent to these three declarations -->
+<allow-navigation href="http://*/*" />
+<allow-navigation href="https://*/*" />
+<allow-navigation href="data:*" />
+
+
+<!-- Allow links to web pages to open in a browser
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+ -->
+<!-- Allow links to example.com to open in a browser 
+<allow-intent href="http://example.com/*" />
+-->
+<!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path 
+<allow-intent href="*://*.example.com/*" />
+-->
+<!-- Allow SMS links to open messaging app -->
+<allow-intent href="sms:*" />
+
+<!-- Allow tel: links to open the dialer -->
+<allow-intent href="tel:*" />
+
+
   <content src="index.html" />
    <preference name="android-minSdkVersion" value="17" />
   <platform name="android">
