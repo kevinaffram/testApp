@@ -10,7 +10,7 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
      Kevin Affram
   </author>
   <content src="https://www.cemgh.org/live-stream.php#.VCnW1fl_uSo" />
-   
+   <preference name="android-minSdkVersion" value="17" />
   <platform name="android">
       <allow-intent href="market:*" />
   </platform>
