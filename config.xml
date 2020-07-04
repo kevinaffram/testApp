@@ -9,7 +9,7 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <author email="kevinaffram@gmail.com" href="http://cordova.io">
      Kevin Affram
   </author>
-  <content src="https://www.cemgh.org/live-stream.php#.VCnW1fl_uSo" />
+  <content src="index.html" />
    <preference name="android-minSdkVersion" value="17" />
   <platform name="android">
       <allow-intent href="market:*" />
