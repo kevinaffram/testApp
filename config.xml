@@ -6,11 +6,18 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <description>
    Charismatic Evangelistic Ministry
   </description>
-  <author email="kevinaffram@gmail.com" href="http://cordova.io">
+  <author email="kevinaffram@gmail.com" href="#">
      Kevin Affram
   </author>
   <access origin="*" />
   
+  <platform name="ios">
+  <icon src="icon.png" width="180" height="180" />
+</platform>
+  
+    
+	<icon src="icon.png" />
+	
   <preference name="AllowInlineMediaPlayback" value="true" />
 <preference name="MediaPlaybackRequiresUserAction" value="false" />   
 <allow-navigation href="*youtube*" />
