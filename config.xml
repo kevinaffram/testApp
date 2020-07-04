@@ -2,30 +2,21 @@
 <widget id="io.cordova.hellocordova" 
 version="1.0.1" xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>My CEM</name>
+  <name>Hello Kevin</name>
   <description>
-   Charismatic Evangelistic Ministry
+    Mic Check one two.
   </description>
   <author email="kevinaffram@gmail.com" href="http://cordova.io">
      Kevin Affram
   </author>
   <access origin="*" />
- <!-- Add the whitelist plugin -->
-<plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
- 
+  
   <preference name="AllowInlineMediaPlayback" value="true" />
 <preference name="MediaPlaybackRequiresUserAction" value="false" />   
 <allow-navigation href="*youtube*" />
 <allow-navigation href="*ytimg*" />
-
-<!-- This policy allows everything (eg CSS, AJAX, object, frame, media, etc) except that 
-    * CSS only from the same origin and inline styles,
-    * scripts only from the same origin and inline styles, and eval()
--->
-<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
-
-<!-- Allow iframe to https://cordova.apache.org/ -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-src 'self' https://youtube.com">
+<!-- Add the whitelist plugin -->
+<plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
 
 <!-- White list https access to Youtube -->
 <allow-navigation href="https://*youtube.com/*"/>
@@ -46,12 +37,12 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
 <allow-intent href="https://*/*" />
  -->
 <!-- Allow links to example.com to open in a browser 
-<allow-intent href="http://example.com/*" />
--->
+<allow-intent href="http://example.com/*" />-->
+
 <!-- Wildcards are allowed for the protocol, as a prefix
-     to the host, or as a suffix to the path 
-<allow-intent href="*://*.example.com/*" />
--->
+     to the host, or as a suffix to the path
+<allow-intent href="*://*.example.com/*" /> -->
+
 <!-- Allow SMS links to open messaging app -->
 <allow-intent href="sms:*" />
 
