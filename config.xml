@@ -9,9 +9,9 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <author email="kevinaffram@gmail.com" href="http://cordova.io">
      Kevin Affram
   </author>
- <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/> <access origin="*" />
+  <access origin="*" />
  <!-- Add the whitelist plugin -->
-
+<plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
  
   <preference name="AllowInlineMediaPlayback" value="true" />
 <preference name="MediaPlaybackRequiresUserAction" value="false" />   
