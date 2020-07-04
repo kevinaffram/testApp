@@ -12,7 +12,7 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <access origin="*" />
   
   
-  <content src="https://cemgh.org/cemtv.php" />
+  <content src="index.html" />
    <preference name="android-minSdkVersion" value="17" />
   <platform name="android">
       <allow-intent href="market:*" />
