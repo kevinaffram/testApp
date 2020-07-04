@@ -6,14 +6,14 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <description>
    Charismatic Evangelistic Ministry
   </description>
-  <author email="kevinaffram@gmail.com" href="#">
+  <author email="kevinaffram@gmail.com" href="http://cordova.io">
      Kevin Affram
   </author>
-  <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
- 
-  <access origin="*" />
+ <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/> <access origin="*" />
  <!-- Add the whitelist plugin -->
-<preference name="AllowInlineMediaPlayback" value="true" />
+
+ 
+  <preference name="AllowInlineMediaPlayback" value="true" />
 <preference name="MediaPlaybackRequiresUserAction" value="false" />   
 <allow-navigation href="*youtube*" />
 <allow-navigation href="*ytimg*" />
