@@ -2,9 +2,9 @@
 <widget id="io.cordova.hellocordova" 
 version="1.0.1" xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Hello Kevin</name>
+  <name>My CEM</name>
   <description>
-    Mic Check one two.
+   Charismatic Evangelistic Ministry
   </description>
   <author email="kevinaffram@gmail.com" href="http://cordova.io">
      Kevin Affram
