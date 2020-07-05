@@ -19,7 +19,12 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<icon src="icon.png" />
 	
   <preference name="AllowInlineMediaPlayback" value="true" />
-<preference name="MediaPlaybackRequiresUserAction" value="false" />   
+<preference name="MediaPlaybackRequiresUserAction" value="false" />
+<preference name="LoadUrlTimeoutValue" value="60000" /> 
+
+
+
+  
 <allow-navigation href="*youtube*" />
 <allow-navigation href="*ytimg*" />
 <!-- Add the whitelist plugin -->
